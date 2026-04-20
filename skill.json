@@ -6,8 +6,23 @@
   "license": "MIT",
   "author": "pejic <1379449332@qq.com>",
   "openClaw": ">=3.4.0",
-  "inputs": {},
-  "outputs": {},
+  "inputs": {
+    "projectPath": {
+      "type": "string",
+      "description": "Path to the project to check",
+      "required": true
+    }
+  },
+  "outputs": {
+    "passed": {
+      "type": "boolean",
+      "description": "Whether all quality gates passed"
+    },
+    "issues": {
+      "type": "array",
+      "description": "List of issues found and fixed"
+    }
+  },
   "permissions": [],
   "homepage": "https://github.com/DrPepper8888/qcsd-quality-gates"
 }
