@@ -94,7 +94,7 @@ project-name/
 
 ## 作者
 
-pejic + 智慧鸭🦆
+pejic
 
 ## 许可证
 
