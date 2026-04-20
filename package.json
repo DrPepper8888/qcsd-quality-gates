@@ -1,0 +1,21 @@
+{
+  "name": "quality-gates",
+  "version": "1.0.0",
+  "description": "Quality gates and auto-healing for AI-assisted personal development",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "openclaw",
+    "skill",
+    "quality",
+    "codegen"
+  ],
+  "author": "辛昊洋",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
